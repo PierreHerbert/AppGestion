@@ -1,0 +1,175 @@
+//header back office
+
+#back_body{
+    background: url('../../public/images/background.svg') repeat ;
+    #back{
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 75px;
+        width: 75px;
+        background-color: $color_white;
+        border-radius: 0 0 60px 0;
+        z-index: 9999;
+        #icon_menu{
+            margin-top: 10px;
+            margin-left: 10px;
+            width: 35px;
+            height: auto;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+        nav{
+            
+            ul{
+                display: none;
+                flex-direction: column;
+                justify-content: space-around;
+                position: relative;
+                
+                li{ list-style-type: none;
+                    position: absolute;
+                    
+                    a{
+                        background-color: $color_white;
+                        border-radius: 100%;
+                        width: 50px;
+                        height: 50px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        img{
+                            width: 30px;
+                            height: auto;
+                        }
+                    }
+                    &:nth-child(1){
+                        top: -50px;
+                        right: 0;
+                    }
+                    &:nth-child(2){
+                    }
+                    &:nth-child(3){
+                        top: 40px;
+                        left: 0;
+
+                    }
+                    &:nth-child(4){
+                        top: 40px;
+                        right: -5px;
+                    }
+                    &:nth-child(5){
+                        top: -10px;
+                        right: -50px;
+                    }
+                }
+            }
+            .visible{
+                display: flex!important;
+            }
+        }
+        
+    }
+    main{
+        width: 80%;
+        margin: 30px auto;
+    }
+    
+}
+
+
+//HOME
+#front_body{
+    #back{
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 75px;
+        width: 75px;
+        background-color: $color_white;
+        border-radius: 0 0 60px 0;
+        z-index: 9999;
+        #icon_menu{
+            margin-top: 10px;
+            margin-left: 10px;
+            width: 35px;
+            height: auto;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+        nav{
+            
+            ul{
+                display: none;
+                flex-direction: column;
+                justify-content: space-around;
+                position: relative;
+                
+                li{ list-style-type: none;
+                    position: absolute;
+                    
+                    a{
+                        background-color: $color_white;
+                        border-radius: 100%;
+                        width: 50px;
+                        height: 50px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        img{
+                            width: 30px;
+                            height: auto;
+                        }
+                    }
+                    &:nth-child(1){
+                        top: -50px;
+                        right: 0;
+                    }
+                    &:nth-child(2){
+                    }
+                    &:nth-child(3){
+                        top: 40px;
+                        left: 0;
+
+                    }
+                    &:nth-child(4){
+                        top: 40px;
+                        right: -5px;
+                    }
+                    &:nth-child(5){
+                        top: -10px;
+                        right: -50px;
+                    }
+                }
+            }
+            .visible{
+                display: flex!important;
+            }
+        }
+        
+    }
+    main{
+        width: 80%;
+        margin: 30px auto;
+    }
+    
+}
+
+#logout{
+    position: fixed;
+    top: 5px;
+    right: 0;
+    a{
+        text-decoration: none;
+        color: #fff;
+        background-color: $color_gray;
+        padding: 15px 10px 5px;
+        font-family: $font-text;
+        border-radius: 0 0 0 10px;
+
+    }
+}

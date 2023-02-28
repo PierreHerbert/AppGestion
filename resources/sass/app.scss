@@ -1,0 +1,13 @@
+$color_white : #fffcf2;
+$color_clay : #ccc5b9;
+$color_gray : #403d39;
+$color_black : #252422;
+$color_orange : #eb5e28;
+
+$font-title : 'Dosis';
+$font-text :'Varela Round';
+
+@import 'header';
+@import 'dashboard';
+@import 'formulaire';
+@import 'login';

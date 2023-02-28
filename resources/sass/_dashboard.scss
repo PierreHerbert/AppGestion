@@ -1,0 +1,117 @@
+#dashboard{
+    h1{
+        color: $color_black;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 45px;
+        font-family: $font-title;
+    }
+    .container-table{
+        margin-top: 50px;
+        table{
+            border-collapse: collapse;
+            border-spacing: 0;
+            background-color: #fff;
+            thead{
+                tr{
+                    background-color: $color_clay;
+                    color: $color_black;
+                    th{
+                        width: 250px;
+                        border-color:black;
+                        border-style:solid;border-width:1px;
+                        font-family:Arial, sans-serif;
+                        font-size:14px;
+                        font-weight:normal;
+                        overflow:hidden;
+                        padding:10px 15px;
+                        word-break:normal;
+                        text-align: center;
+                        font-family: $font-text;
+                        font-weight: 600;
+                    }
+                }
+            }
+            tbody{
+                tr{
+                    td{
+                        border-color:black;
+                        border-style:solid;border-width:1px;
+                        font-family:Arial, sans-serif;
+                        font-size:14px;
+                        font-weight:normal;
+                        overflow:hidden;
+                        padding:10px 15px;
+                        word-break:normal;
+                        text-align: center;
+                        font-family: $font-text;
+                    }
+                }
+            }
+        }
+    }
+    #total{
+        font-size: 28px;
+        font-family: $font-title;
+        color: #fff;
+        font-weight: 600;
+        text-align: right;
+        position: fixed;
+        right: 0;
+        top: 30px;
+        background-color: $color_gray;
+        padding: 10px;
+        border-radius: 10px 0 0 10px;
+        span{font-weight: 400;}
+    }
+}
+
+
+//INDEX OPERATION
+#operations,#clients,#categorie{
+
+    .container-operations{
+        margin-top: 50px;
+         .container-operation{
+        background-color: #fff;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px 10px;
+        border-bottom: 1px solid #000;
+        p{
+            width: 200px;
+            font-family: $font-text;
+        }
+        
+        }
+        .container-operation:last-child{
+            border-bottom:none;
+        }
+    }
+   
+}
+
+#create{
+    #liste-clients{
+        display: none;
+    }
+}
+
+
+//INDEX CLIENT
+#clients{
+    .client-nom{
+        text-transform: uppercase;
+    }
+    .client-prenom{
+        text-transform: capitalize;
+    }
+}
+
+.btn-background{
+    background-color: $color_black!important;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
